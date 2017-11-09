@@ -7,6 +7,12 @@
 #include <errno.h>
 #include <sys/types.h>
 
+/*
+  Charles Weng
+  Systems - 4
+  11/8
+  HW 10 - Fire up the BatSIGNAL
+*/
 static void sighandler(int signo){
   // check if SIGINT
   if(signo == SIGINT){
